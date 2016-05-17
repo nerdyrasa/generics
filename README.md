@@ -1,8 +1,18 @@
-DYNAMIC LOADING
+GENERICS
 
-Get the repository type from the configuration file to do runtime binding. 
+Module 1 : (M1) Why Generics?
 
-There are no assembly references to concrete repository types.
+Module 2 : (M2) Working with Generic Collections
 
-There is a post build step to include assemblies for concrete repositories.
+Module 3 : (M3) Generic Classes and Inheritance
+
+Module 4 : (M4) Generic Methods and Delegates
+
+Module 5 : (M5) Constraints, Covariance and Contravariance
+
+Module 6 : (M6) Generics and Reflection
+
+Module 7 : (M7) Generic Odds and Ends 
+
+
 
