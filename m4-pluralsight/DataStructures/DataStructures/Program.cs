@@ -7,13 +7,14 @@ namespace DataStructures
         static void Main(string[] args)
         {
             var buffer = new Buffer<double>();
-
             
             ProcessInput(buffer);
 
-            var asInts = buffer.AsEnumerableOf<int>();
+            buffer.Dump();
 
-            foreach (var item in asInts)
+            var asStrings = buffer.AsEnumerableOf<double, string>();
+
+            foreach (var item in asStrings)
             {
                 Console.WriteLine(item);
             }

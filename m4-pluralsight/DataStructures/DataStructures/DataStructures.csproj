@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Buffer.cs" />
+    <Compile Include="BufferExtensions.cs" />
     <Compile Include="CircularBuffer.cs" />
     <Compile Include="IBuffer.cs" />
     <Compile Include="Program.cs" />
